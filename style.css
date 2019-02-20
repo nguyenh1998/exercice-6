@@ -39,3 +39,7 @@
 .accueilMessage {
     color: rgb(173, 208, 255);
 }
+
+.imageADN {
+    border: 15px solid salmon;
+}
