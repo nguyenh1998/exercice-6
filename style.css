@@ -26,3 +26,12 @@
 	font-size: 1.5em;
   background-color: rgb(255, 255, 199);
 }
+
+.paragrapheLorem {
+    background-color: rgb(195, 195, 255);
+    border-radius: 5px;
+}
+
+.accueilMessage {
+    color: rgb(173, 208, 255);
+}
