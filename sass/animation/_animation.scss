@@ -3,14 +3,28 @@
 }
 
 .site-title.fadeIn {
-    animation: fadeIn 1s ease-in forwards;
+    animation: fadeIn 4s ease-in forwards;
 }
 
 @keyframes fadeIn {
     0%  {
         opacity: 0;
+        font-size: 3em;
+    }
+    25% {
+        opacity: 1;
+        font-size: 2.8em;
+    }
+    50% {
+        opacity: 0;
+        font-size: 3.2em;
+    }
+    75% {
+        opacity: 1;
+        font-size: 2.8em;
     }
     100% {
         opacity: 1;
+        font-size: 3em;
     }
 }
