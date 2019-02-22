@@ -6,6 +6,25 @@
     animation: fadeIn 4s ease-in forwards;
 }
 
+.site-description {
+    position: absolute;
+    top: -250px;
+    margin-left: 30px;
+}
+
+.site-description.swipeDown {
+    animation: swipeDown 2s ease-in-out forwards;
+}
+
+@keyframes swipeDown {
+    0% {
+        top: -250px;
+    }
+    100% {
+        top: 20px;
+    }
+}
+
 @keyframes fadeIn {
     0%  {
         opacity: 0;
