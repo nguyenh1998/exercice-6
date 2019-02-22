@@ -13,7 +13,7 @@
 */
 
 .site-header {
-    background-color: rgb(252, 252, 124);
+    background-color: rgba(252, 252, 124, 0.863);
 }
 
 .site-branding 
@@ -23,14 +23,16 @@
 
 .site-branding 
 .site-description {
-	font-size: 1.5em;
-  background-color: rgb(255, 255, 199);
+    font-size: 1.5em;
+    
 }
 
 .site-content {
     background-color: beige;
 }
 
+
+// CLASSE PERSONNALISÉ
 .paragrapheLorem {
     background-color: rgb(195, 195, 255);
     border-radius: 5px;

@@ -348,7 +348,7 @@ template {
  Text Domain:  twenty-nineteen-enfant
 */
 .site-header {
-  background-color: #fcfc7c;
+  background-color: rgba(252, 252, 124, 0.863);
 }
 
 .site-branding
@@ -359,7 +359,6 @@ template {
 .site-branding
 .site-description {
   font-size: 1.5em;
-  background-color: #ffffc7;
 }
 
 .site-content {
@@ -381,6 +380,11 @@ template {
 
 .site-title {
   opacity: 0;
+}
+
+.site-title.fadeIn {
+  -webkit-animation: fadeIn 1s ease-in forwards;
+          animation: fadeIn 1s ease-in forwards;
 }
 
 @-webkit-keyframes fadeIn {
