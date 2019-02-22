@@ -16,6 +16,23 @@
     animation: swipeDown 2s ease-in-out forwards;
 }
 
+.site-content {
+    opacity: 0;
+}
+
+.site-content.appearIn {
+    animation: appearIn 2s ease-in-out forwards;
+}
+
+@keyframes appearIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 @keyframes swipeDown {
     0% {
         top: -250px;
