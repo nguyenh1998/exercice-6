@@ -465,9 +465,16 @@ template {
   }
 }
 
-.content-area {
+.site-main {
   display: -ms-grid;
   display: grid;
-  padding: 60px;
+  padding: 50px;
+  grid-gap: 10px;
+  -ms-grid-columns: (400px)[6];
+      grid-template-columns: repeat(6, 400px);
+  -ms-grid-rows: 400px 400px 400px;
+      grid-template-rows: 400px 400px 400px;
+  grid-auto-flow: column;
+  width: 600px;
 }
 /*# sourceMappingURL=style.css.map */

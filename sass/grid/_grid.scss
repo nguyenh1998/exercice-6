@@ -1,4 +1,10 @@
-.content-area {
+.site-main {
     display: grid;
-    padding: 60px;
+    padding: 50px;
+    grid-gap: 10px;
+    grid-template-columns: repeat(6, 400px);
+    grid-template-rows: 400px 400px 400px;
+    grid-auto-flow: column;
+    width: 600px;
 }
+
