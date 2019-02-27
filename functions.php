@@ -22,4 +22,5 @@ wp_enqueue_script(
     filemtime( get_stylesheet_directory() . '/js/animation.js' )
 );
 }
+
 ?>

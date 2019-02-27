@@ -448,18 +448,6 @@ template {
     opacity: 0;
     font-size: 3em;
   }
-  25% {
-    opacity: 1;
-    font-size: 2.8em;
-  }
-  50% {
-    opacity: 0;
-    font-size: 3.2em;
-  }
-  75% {
-    opacity: 1;
-    font-size: 2.8em;
-  }
   100% {
     opacity: 1;
     font-size: 3em;
@@ -471,21 +459,15 @@ template {
     opacity: 0;
     font-size: 3em;
   }
-  25% {
-    opacity: 1;
-    font-size: 2.8em;
-  }
-  50% {
-    opacity: 0;
-    font-size: 3.2em;
-  }
-  75% {
-    opacity: 1;
-    font-size: 2.8em;
-  }
   100% {
     opacity: 1;
     font-size: 3em;
   }
+}
+
+.content-area {
+  display: -ms-grid;
+  display: grid;
+  padding: 60px;
 }
 /*# sourceMappingURL=style.css.map */
