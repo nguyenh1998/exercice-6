@@ -3,7 +3,7 @@
 }
 
 .site-title.fadeIn {
-    animation: fadeIn 4s ease-in forwards;
+    animation: fadeIn 2s ease-in forwards;
 }
 
 .site-description {
@@ -13,7 +13,7 @@
 }
 
 .site-description.swipeDown {
-    animation: swipeDown 2s ease-in-out forwards;
+    animation: swipeDown 1s ease-in-out forwards;
 }
 
 .site-content {
@@ -21,7 +21,7 @@
 }
 
 .site-content.appearIn {
-    animation: appearIn 2s ease-in-out forwards;
+    animation: appearIn 1s ease-in-out forwards;
 }
 
 @keyframes appearIn {

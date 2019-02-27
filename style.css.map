@@ -5,7 +5,8 @@
         "sass/style.scss",
         "sass/_normalize.scss",
         "sass/variable-site/_variable-site.scss",
-        "sass/animation/_animation.scss"
+        "sass/animation/_animation.scss",
+        "sass/mixins/_mixins.scss"
     ],
     "names": [],
     "file": "style.css"

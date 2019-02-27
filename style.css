@@ -383,8 +383,8 @@ template {
 }
 
 .site-title.fadeIn {
-  -webkit-animation: fadeIn 4s ease-in forwards;
-          animation: fadeIn 4s ease-in forwards;
+  -webkit-animation: fadeIn 2s ease-in forwards;
+          animation: fadeIn 2s ease-in forwards;
 }
 
 .site-description {
@@ -394,8 +394,8 @@ template {
 }
 
 .site-description.swipeDown {
-  -webkit-animation: swipeDown 2s ease-in-out forwards;
-          animation: swipeDown 2s ease-in-out forwards;
+  -webkit-animation: swipeDown 1s ease-in-out forwards;
+          animation: swipeDown 1s ease-in-out forwards;
 }
 
 .site-content {
@@ -403,8 +403,8 @@ template {
 }
 
 .site-content.appearIn {
-  -webkit-animation: appearIn 2s ease-in-out forwards;
-          animation: appearIn 2s ease-in-out forwards;
+  -webkit-animation: appearIn 1s ease-in-out forwards;
+          animation: appearIn 1s ease-in-out forwards;
 }
 
 @-webkit-keyframes appearIn {
