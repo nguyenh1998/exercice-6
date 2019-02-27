@@ -468,28 +468,57 @@ template {
 .site-main {
   display: -ms-grid;
   display: grid;
-  padding: 50px;
+  padding: 0px;
   -ms-grid-columns: (minmax(385px, 1fr))[auto-fill];
       grid-template-columns: repeat(auto-fill, minmax(385px, 1fr));
-  grid-auto-rows: minmax(385px, auto);
+  grid-auto-rows: minmax(100px, auto);
   grid-gap: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .site-main {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .site-main {
+    padding: 50px 200px 50px 200px;
+  }
 }
 
 .entry-title {
   background-color: #444;
-  font-size: 1.7em;
+  font-size: 2.2em;
   padding: 20px;
+  height: 250px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .entry-title {
+    font-size: 1.75em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .entry-title {
+    font-size: 1.7em;
+  }
 }
 
 .entry-title:nth-child(even) {
-  background-color: #ccc;
+  background-color: #444;
 }
 
-.entry-title a {
-  color: white;
+@media (min-width: 768px) and (max-width: 1023px) {
+  .entry-title:nth-child(even) {
+    background-color: #ccc;
+  }
 }
 
-.entry-title:nth-child(even) a {
-  color: black;
+@media (min-width: 1024px) {
+  .entry-title:nth-child(even) {
+    background-color: #ccc;
+  }
 }
 /*# sourceMappingURL=style.css.map */
