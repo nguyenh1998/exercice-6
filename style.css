@@ -387,17 +387,6 @@ template {
           animation: fadeIn 2s ease-in forwards;
 }
 
-.site-description {
-  position: absolute;
-  top: -250px;
-  margin-left: 30px;
-}
-
-.site-description.swipeDown {
-  -webkit-animation: swipeDown 1s ease-in-out forwards;
-          animation: swipeDown 1s ease-in-out forwards;
-}
-
 .site-content {
   opacity: 0;
 }
@@ -483,7 +472,7 @@ template {
 
 @media (min-width: 1024px) {
   .site-main {
-    padding: 50px 200px 50px 200px;
+    padding: 50px;
   }
 }
 
@@ -502,7 +491,7 @@ template {
 
 @media (min-width: 1024px) {
   .entry-title {
-    font-size: 1.7em;
+    font-size: 1em;
   }
 }
 
