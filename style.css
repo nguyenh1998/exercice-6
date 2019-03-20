@@ -495,18 +495,18 @@ template {
   }
 }
 
-.entry-title:nth-child(even) {
+.entry-title {
   background-color: #444;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .entry-title:nth-child(even) {
+  .entry-title {
     background-color: #ccc;
   }
 }
 
 @media (min-width: 1024px) {
-  .entry-title:nth-child(even) {
+  .entry-title {
     background-color: #ccc;
   }
 }

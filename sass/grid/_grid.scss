@@ -29,7 +29,7 @@
     }
 }
 
-.entry-title:nth-child(even) {
+.entry-title {
     background-color: #444;
 
     @include tablet {
