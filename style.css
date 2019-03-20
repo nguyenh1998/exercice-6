@@ -495,19 +495,27 @@ template {
   }
 }
 
-.entry-title {
-  background-color: #444;
+.entry-title:nth-child(-n+6) {
+  background-color: #b80000;
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
-  .entry-title {
-    background-color: #ccc;
-  }
+.entry-title:nth-child(n+7):nth-child(-n+10) {
+  background-color: #4ab800;
 }
 
-@media (min-width: 1024px) {
-  .entry-title {
-    background-color: #ccc;
-  }
+.entry-title:nth-child(n+11):nth-child(-n+16) {
+  background-color: #009cb8;
+}
+
+.entry-title:nth-child(n+17):nth-child(-n+22) {
+  background-color: #2800b8;
+}
+
+.entry-title:nth-child(n+23):nth-child(-n+26) {
+  background-color: #9300b8;
+}
+
+.entry-title:nth-child(n+27):nth-child(-n+30) {
+  background-color: #fbff00;
 }
 /*# sourceMappingURL=style.css.map */

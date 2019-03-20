@@ -27,6 +27,11 @@ get_header();
 			while ( have_posts() ) :
 				the_post();
 
+				if (is_category('Cours')) 
+				{
+				$args = array( 'posts_per_page' => -1, 'orderby'=> 'title', 'order' => 'ASC' );
+				$glossaryposts = get_posts( $args ); 
+				}
 				/*
 				 * Include the Post-Format-specific template for the content.
 				 * If you want to override this in a child theme, then include a file

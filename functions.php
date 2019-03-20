@@ -1,4 +1,14 @@
 <?php
+
+// add_action( 'pre_get_posts', 'x_category_order' );
+// function x_category_order($query){
+// 	if(!$query->is_main_query()) return $query;
+// 	if(is_category('4')) $query->set( 'orderby', 'title' );$query->set( 'order', 'ASC' );
+// 	return $query;
+	
+// }
+
+
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 
 function my_theme_enqueue_styles() {
