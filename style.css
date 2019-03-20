@@ -17,7 +17,7 @@
 
 .site-branding
 .site-title {
-  font-size: 3em;
+  font-size: 1.5em;
 }
 
 .site-branding
@@ -40,6 +40,15 @@
 
 .imageADN {
   border: 10px solid salmon;
+}
+
+.tag-session1 {
+  padding: 0px;
+}
+
+.nav_previous {
+  padding: 10px;
+  font-size: 0.2em;
 }
 
 .site-title {
@@ -122,8 +131,8 @@
   display: -ms-grid;
   display: grid;
   padding: 0px;
-  -ms-grid-columns: (minmax(385px, 1fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(385px, 1fr));
+  -ms-grid-columns: (minmax(500px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   grid-auto-rows: minmax(100px, auto);
   grid-gap: 10px;
 }
@@ -136,7 +145,7 @@
 
 @media (min-width: 1024px) {
   .site-main {
-    padding: 50px;
+    padding: 30px;
   }
 }
 
